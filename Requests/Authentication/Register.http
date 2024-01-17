@@ -1,0 +1,13 @@
+
+@host=http://localhost:5152
+
+
+POST {{host}}/api/v1/auth/register HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Toheeb",
+    "lastName": "Oyekola",
+    "email": "toheeb.olawale.to23@gmail.com",
+    "password": "tomz123"
+}
