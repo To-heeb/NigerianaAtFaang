@@ -1,6 +1,8 @@
+using NigeriansAtFaang.Domain.Entities;
+
 namespace NigeriansAtFaang.Application.Common.Interface.Authentication;
 
 public interface IJwtTokenGenerator
 {
-    string GenerateToken(Guid userId, string firstName, string lastName);
+    string GenerateToken(User user);
 }
